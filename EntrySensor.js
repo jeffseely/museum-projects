@@ -1,4 +1,6 @@
-//*code for module A: entry sensor
+//*code for module A: entry sensor.  This code is currently being
+//reworked to use a PIR motion sensor rather than the HC-SR04 that
+//is specified in the original code.
 
 digitalWrite(A5,1); //initialize sound off
 var sdist = 170; //initialize to range
