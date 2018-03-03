@@ -1,5 +1,12 @@
 //**code for module C: periscope machinegun
 
+//Using Espruino Pico R1_3 Firmware 1v95: https://www.espruino.com/Pico
+//and SparkFun Capacitive Touch Breakout: https://www.sparkfun.com/products/14520
+//and Adafruit Audio FX Sound Board: https://www.adafruit.com/product/2133
+//and Adafruit Perma-Proto quarter-sized Breadboard PCB: https://www.adafruit.com/product/589
+
+//The following will need to be wrapped in a function onInit() {here} and save()'d to Pico.
+
 var pulser1 = null;
 var count1 = 0; //counter for machine gun pulse
 var gun0 = B4; //light for machine gun

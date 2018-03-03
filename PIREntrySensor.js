@@ -2,6 +2,7 @@
 //Using Espruino Pico R1_3 Firmware 1v95: https://www.espruino.com/Pico
 //and PIR motion sensor: https://www.sparkfun.com/products/13285
 //and Adafruit Audio FX Sound Board: https://www.adafruit.com/product/2133
+//and Adafruit Perma-Proto half-sized Breadboard PCB: https://www.adafruit.com/product/571
 
 //The following will need to be wrapped in a function onInit() {here} and save()'d to Pico.
 
